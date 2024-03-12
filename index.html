@@ -1,11 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/libraries/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      href="assets/libraries/fontawesome/css/fontawesome.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/libraries/fontawesome/css/brands.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/libraries/fontawesome/css/solid.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/libraries/themify-icons/themify-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/style.css"
+    />
+
+    <title>Kafiil</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header class="kaf-nav">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a
+                class="navbar-brand"
+                href="https://kafiil.com/"
+              >
+                <img src="assets/images/main-logo2 1.png" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span>Auctions</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i class="fa-solid fa-trophy"></i>
+                      <span>Contests</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i class="fa-solid fa-briefcase"></i>
+                      <span>Project</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i class="fa-solid fa-image"></i>
+                      <span>Portfolios</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i class="fa-solid fa-people-line"></i>
+                      <span>Freelancers</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <i class="fa-solid fa-message"></i>
+                      <span>Forum</span>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav d-flex">
+                  <li class="nav-item">
+                    <button
+                      type="button"
+                      class="btn position-relative"
+                    >
+                      <i class="fa-brands fa-rocketchat"></i>
+                      <span
+                        class="position-absolute top-0 start-75 translate-middle badge rounded-circle bg-primary"
+                      >
+                        10
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                    </button>
+                  </li>
+                  <li class="nav-item">
+                    <button
+                      type="button"
+                      class="btn position-relative"
+                    >
+                      <i class="fa-solid fa-bell"></i>
+                      <span
+                        class="position-absolute top-0 start-75 translate-middle badge rounded-circle bg-primary"
+                      >
+                        10
+                        <span class="visually-hidden">alerts</span>
+                      </span>
+                    </button>
+                  </li>
+
+                  <li class="nav-item profile dropdown">
+                    <button
+                      class="btn dropdown-toggle"
+                      type="button"
+                      id="dropdownMenu2"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img
+                        src="assets/images/Ellipse 10.png"
+                        alt=""
+                      />
+                    </button>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenu2"
+                    >
+                      <li class="">
+                        <div class="inner-profile">
+                          <img src="assets/images/Ellipse 10.png" />
+                          <div class="mx-2">
+                            <p class="name">Ahmed Ali</p>
+                            <p class="j-title">Student</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a
+                          class="link d-flex"
+                          href=""
+                        >
+                          <i class="fa-regular fa-user"></i>
+                          <p class="mx-1">My Profile</p>
+                        </a>
+                      </li>
+                      <li class="d-flex justify-content-between">
+                        <a
+                          class="link d-flex"
+                          href=""
+                        >
+                          <i class="fa-regular fa-moon"></i>
+                          <p class="mx-1">Dark Mode</p>
+                        </a>
+                        <div class="form-check form-switch m-0">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            role="switch"
+                            id="flexSwitchCheckChecked"
+                            checked
+                          />
+                        </div>
+                      </li>
+                      <li class="language d-flex justify-content-between">
+                        <a
+                          class="link d-flex"
+                          href=""
+                        >
+                          <i class="fa-solid fa-language"></i>
+                          <p class="mx-1">Language</p>
+                        </a>
+                        <div class="flag d-flex">
+                          <p class="">العربية</p>
+                          <div class="icon">
+                            <img
+                              class="flag"
+                              src="assets/images/saudi-arabia.png"
+                            />
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a
+                          class="link d-flex"
+                          href=""
+                        >
+                          <i class="fa-solid fa-gear"></i>
+                          <p class="mx-1">Account Settings</p>
+                        </a>
+                      </li>
+                      <li class="logout">
+                        <a
+                          class="link logout d-flex"
+                          href=""
+                        >
+                          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                          <p class="mx-1">Logout</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="page-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <section class="main-title">
+                <div class="sm-title">Design / Logo Design</div>
+                <div class="my-2"></div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                  nisi, cras neque Lorem ipsum dolor sit amet,
+                </p>
+                <div class="my-2"></div>
+
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="rating d-flex align-items-center">
+                    <form class="star">
+                      <label>
+                        ★
+                        <input
+                          type="radio"
+                          name="note"
+                          value="1"
+                        />
+                      </label>
+
+                      <label>
+                        ★
+                        <input
+                          type="radio"
+                          name="note"
+                          value="2"
+                        />
+                      </label>
+                      <label>
+                        ★
+                        <input
+                          type="radio"
+                          name="note"
+                          value="3"
+                        />
+                      </label>
+                      <label>
+                        ★
+                        <input
+                          type="radio"
+                          name="note"
+                          value="4"
+                        />
+                      </label>
+                      <label>
+                        ★
+                        <input
+                          type="radio"
+                          name="note"
+                          value="5"
+                        />
+                      </label>
+                    </form>
+                    <small class="mx-2">4.1 (500)</small>
+                  </div>
+                  <div class="d-flex">
+                    <button class="btn p-1">
+                      <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                    <button class="btn p-1">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </section>
+
+              <div class="m-section"></div>
+
+              <section class="slider">
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="false"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="assets/images/Rectangle 8.png"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </section>
+
+              <div class="m-section"></div>
+
+              <section class="desc">
+                <h5>Description</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                  nisi, cras neque Lorem ipsum dolor sit amet, Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                  Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                  dolor sit amet, Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </section>
+
+              <div class="m-section"></div>
+
+              <section class="add-ons">
+                <div class="title d-flex justify-content-between">
+                  <h6>Service Add-Ons</h6>
+                  <form action="">
+                    <div class="custom-checkbox form-group d-flex">
+                      <input
+                        id="interview_creation"
+                        class="checkbox-custom"
+
+                        type="checkbox"
+           
+                      />
+                      <label
+                        class="checkbox-custom-label w-auto m-0"
+                        for="interview_creation"
+                      >
+                      Select All
+                      </label>
+                    </div>
+                  </form>
+                </div>
+                <div class="item">
+                  
+                </div>
+              </section>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/libraries/jquery.min.js"></script>
+    <script src="assets/libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/rating.js"></script>
+  </body>
 </html>

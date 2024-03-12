@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f7f7;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.dropdown-menu {
+  font-size: 1em;
+}
+
+.text-primary {
+  color: #1dbf73;
+}
+
+.bg-primary {
+  background-color: #1dbf73 !important;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+}
+
+.form-check-input:checked {
+  background-color: #1dbf73;
+  border-color: #1dbf73;
+}
+
+/* ----------------------------------checkbox custom---------------------------------------- */
+.checkbox-custom,
+.radio-custom {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-custom,
+.checkbox-custom-label,
+.radio-custom,
+.radio-custom-label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.checkbox-custom-label,
+.radio-custom-label {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-custom + .checkbox-custom-label:before {
+  content: "";
+  background: #ddd;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  padding: 2px;
+  margin-right: 4px;
+  text-align: center;
+}
+
+.radio-custom + .radio-custom-label:before {
+  content: "";
+  background: #ddd;
+  border: 2px solid #dae3ec;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 2px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+  background: #1dbf73;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 0px 2px #fff;
+}
+
+.kaf-nav {
+  box-shadow: 0px 9px 10px -15px #000;
+}
+
+.kaf-nav nav {
+  background-color: #fff;
+}
+.kaf-nav nav .navbar-nav {
+  align-items: center;
+}
+.kaf-nav nav .navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+.kaf-nav nav .nav-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #c3c5c8;
+}
+.kaf-nav nav .nav-link.active {
+  color: #1dbf73;
+}
+.kaf-nav nav .nav-item.profile {
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+}
+.kaf-nav nav .nav-item.profile img {
+  width: 100%;
+  height: auto;
+}
+.kaf-nav nav .nav-item.profile .dropdown-toggle::after {
+  display: none;
+}
+.kaf-nav nav .nav-item.profile button {
+  padding: 0;
+}
+.kaf-nav nav .nav-item.profile .btn-check:focus + .btn,
+.kaf-nav nav .nav-item.profile .btn:focus {
+  box-shadow: none;
+}
+.kaf-nav nav .nav-item.profile .dropdown-menu[data-bs-popper] {
+  left: auto;
+  right: 0;
+  box-shadow: 0 0.225rem 0.65rem rgba(0, 0, 0, 0.075);
+  border: none;
+}
+.kaf-nav nav .nav-item.profile li {
+  padding: 10px;
+}
+.kaf-nav nav .nav-item.profile .inner-profile {
+  display: flex;
+  align-items: center;
+}
+.kaf-nav nav .nav-item.profile .inner-profile img {
+  height: 38px;
+  width: 38px;
+}
+.kaf-nav nav .nav-item.profile .name {
+  margin: 0;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+.kaf-nav nav .nav-item.profile .j-title {
+  margin: 0;
+  color: #8692a6;
+  font-size: 0.7em;
+}
+.kaf-nav nav .nav-item.profile .link {
+  color: #696f79;
+  align-items: center;
+}
+.kaf-nav nav .nav-item.profile .link p {
+  overflow: auto;
+  white-space: nowrap;
+}
+.kaf-nav nav .nav-item.profile .link.logout {
+  color: #f56342;
+}
+.kaf-nav nav .nav-item.profile li {
+  border-bottom: 1px solid #f6f6f6;
+}
+.kaf-nav nav .nav-item.profile li.logout {
+  min-width: 210px;
+  border-bottom: none;
+}
+.kaf-nav nav .nav-item.profile .flag img {
+  width: 20px;
+  height: auto;
+}
+.kaf-nav nav .nav-item.profile .flag p {
+  padding-right: 3px;
+  border-right: 1px solid #f0f0f0;
+}
+.kaf-nav nav .nav-item.profile .flag .icon {
+  padding-left: 3px;
+}
+.kaf-nav nav .badge {
+  padding: 0.35em;
+}
+
+section.main-title {
+  margin-top: 2em;
+}
+section.main-title .sm-title {
+  color: #8692A6;
+}
+section.main-title .star label {
+  font-size: 1.3em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+section.main-title p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.m-section {
+  margin: 2em 0;
+}
+
+section.desc p {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
