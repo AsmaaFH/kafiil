@@ -1,10 +1,10 @@
 # Project Name
 
-Short description of the project.
+Kafiil TASK.
 
 ## Installation
 
-Instructions on how to install and set up the project.
+INDEX.HTML TO start seeing the task on any browser.
 
 ## Usage
 
