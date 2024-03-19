@@ -12,6 +12,18 @@ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+.form-control:focus{
+  box-shadow: none;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+a {
+  text-decoration: none;
+}
+.btn-check:focus+.btn, .btn:focus{
+  box-shadow: none;
+}
 
 /* Sections
    ========================================================================== */

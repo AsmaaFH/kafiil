@@ -72,3 +72,16 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+
+//Service Rating
+const rateItem = $('.inner-item');
+const starsItem = $('.inner-item star');
+
+const rate = rateItem.data('rate');
+const percentage = rate/5 *100;
+
+const rateProgressBar = $('.inner-item .progress .progress-bar');
+rateProgressBar.width
+console.log(percentage);
+rateProgressBar.css({'width': `${percentage}%` });
